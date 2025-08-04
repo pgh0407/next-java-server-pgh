@@ -11,7 +11,7 @@ env:
   ECS_CLUSTER: next-team-first-cluster
   ECS_SERVICE: pgh-service
   ECS_TASK_DEFINITION: .aws/ecs-task-definition.json
-  CONTAINER_NAME: next-java-server-container
+  CONTAINER_NAME: pgh-task
 
 jobs:
   deploy:
