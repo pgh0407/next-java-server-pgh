@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.next.app.controller.UserControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-08-04T09:08:34.083Z" hostname="PGH" time="0.976">
+<testsuite name="com.next.app.controller.UserControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-08-05T02:00:23.086Z" hostname="EDU01-13" time="0.307">
   <properties/>
-  <testcase name="getAllUsers_ShouldReturnUserList()" classname="com.next.app.controller.UserControllerTest" time="0.708"/>
-  <testcase name="createUser_WhenValidUser_ShouldReturnCreatedUser()" classname="com.next.app.controller.UserControllerTest" time="0.088"/>
-  <testcase name="getUserById_WhenUserExists_ShouldReturnUser()" classname="com.next.app.controller.UserControllerTest" time="0.022"/>
-  <testcase name="updateUser_WhenUserNotExists_ShouldReturn404()" classname="com.next.app.controller.UserControllerTest" time="0.044"/>
-  <testcase name="getUserById_WhenUserNotExists_ShouldReturn404()" classname="com.next.app.controller.UserControllerTest" time="0.008"/>
-  <testcase name="deleteUser_ShouldReturn200()" classname="com.next.app.controller.UserControllerTest" time="0.026"/>
-  <testcase name="updateUser_WhenUserExists_ShouldReturnUpdatedUser()" classname="com.next.app.controller.UserControllerTest" time="0.048"/>
-  <system-out><![CDATA[18:08:29.495 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.next.app.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-18:08:29.683 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.next.app.NextJavaServerBaseApplication for test class com.next.app.controller.UserControllerTest
+  <testcase name="getAllUsers_ShouldReturnUserList()" classname="com.next.app.controller.UserControllerTest" time="0.229"/>
+  <testcase name="createUser_WhenValidUser_ShouldReturnCreatedUser()" classname="com.next.app.controller.UserControllerTest" time="0.042"/>
+  <testcase name="getUserById_WhenUserExists_ShouldReturnUser()" classname="com.next.app.controller.UserControllerTest" time="0.008"/>
+  <testcase name="updateUser_WhenUserNotExists_ShouldReturn404()" classname="com.next.app.controller.UserControllerTest" time="0.006"/>
+  <testcase name="getUserById_WhenUserNotExists_ShouldReturn404()" classname="com.next.app.controller.UserControllerTest" time="0.003"/>
+  <testcase name="deleteUser_ShouldReturn200()" classname="com.next.app.controller.UserControllerTest" time="0.006"/>
+  <testcase name="updateUser_WhenUserExists_ShouldReturnUpdatedUser()" classname="com.next.app.controller.UserControllerTest" time="0.004"/>
+  <system-out><![CDATA[11:00:20.399 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.next.app.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:00:20.509 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.next.app.NextJavaServerBaseApplication for test class com.next.app.controller.UserControllerTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -19,12 +19,12 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.6)
 
-2025-08-04T18:08:30.345+09:00  INFO 20800 --- [    Test worker] c.n.app.controller.UserControllerTest    : Starting UserControllerTest using Java 17.0.15 with PID 20800 (started by qpwee in C:\Users\qpwee\IdeaProjects\next-java-server-pgh)
-2025-08-04T18:08:30.346+09:00  INFO 20800 --- [    Test worker] c.n.app.controller.UserControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2025-08-04T18:08:33.882+09:00  INFO 20800 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-08-04T18:08:33.882+09:00  INFO 20800 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-08-04T18:08:33.899+09:00  INFO 20800 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2025-08-04T18:08:34.030+09:00  INFO 20800 --- [    Test worker] c.n.app.controller.UserControllerTest    : Started UserControllerTest in 4.18 seconds (process running for 6.273)
+2025-08-05T11:00:20.934+09:00  INFO 10828 --- [    Test worker] c.n.app.controller.UserControllerTest    : Starting UserControllerTest using Java 17.0.16 with PID 10828 (started by uesr in C:\Users\uesr\IdeaProjects\next-java-server-pgh)
+2025-08-05T11:00:20.934+09:00  INFO 10828 --- [    Test worker] c.n.app.controller.UserControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2025-08-05T11:00:23.025+09:00  INFO 10828 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-08-05T11:00:23.025+09:00  INFO 10828 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-08-05T11:00:23.025+09:00  INFO 10828 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-08-05T11:00:23.078+09:00  INFO 10828 --- [    Test worker] c.n.app.controller.UserControllerTest    : Started UserControllerTest in 2.481 seconds (process running for 3.502)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
