@@ -12,7 +12,7 @@ public class OpenApiConfig {
     public OpenAPI openAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Next Java Server API")
+                        .title("Next Java Server-PGH API")
                         .description("Spring Boot REST API Documentation")
                         .version("1.0.0"));
     }
